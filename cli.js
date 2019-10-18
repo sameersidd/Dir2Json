@@ -6,7 +6,7 @@ const path = require("path");
 let args = process.argv[2];
 const root =
 	args == undefined || args == "."
-		? __dirname
+		? path.resolve(".")
 		: !fs.existsSync(args)
 		? args
 		: "Error";
