@@ -1,0 +1,14 @@
+{
+	"name": "dir2json",
+	"version": "1.0.0",
+	"description": "Convert a directory listing to a JSON file",
+	"main": "cli.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"author": "SS",
+	"license": "ISC",
+	"bin": {
+		"dir2json": "cli.js"
+	}
+}
