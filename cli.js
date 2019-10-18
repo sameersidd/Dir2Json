@@ -5,7 +5,11 @@ const path = require("path");
 
 let args = process.argv[2];
 const root =
-	args == undefined ? __dirname : fs.existsSync(args) ? args : "Error";
+	args == undefined || args == "."
+		? __dirname
+		: !fs.existsSync(args)
+		? args
+		: "Error";
 if (root == "Error") {
 	console.log("Directory Not Found!");
 	process.exit();
