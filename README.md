@@ -2,9 +2,9 @@
 
 ## Recursively scans a directory and lists its contents as a JSON file
 
-###  - Download the `cli.js` file, `npm link` it
+###  - Download the repo, run `npm link` in the repo directory
 
-###  - use `dir2json` in cmd
+###  - Use `dir2json` in command prompt anywhere
 
 ###  - Takes a directory path as its args
 
